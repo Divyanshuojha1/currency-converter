@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #d8c6a5, #e8d7b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.container {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    width: 380px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-weight: 600;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    box-shadow: #333;
+}
+
+/* Amount */
+.amount p {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.amount input {
+    width: 100%;
+    height: 45px;
+    padding: 0 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+}
+
+.amount input:focus {
+    border-color: #af4d98;
+    box-shadow: 0 0 6px rgba(175, 77, 152, 0.3);
+    outline: none;
+}
+
+/* Dropdown Layout */
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.from,
+.to {
+    width: 100%;
+}
+
+.from p,
+.to p {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+/* Select Box */
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+    transition: 0.3s ease;
+}
+
+.select-container:hover {
+    border-color: #af4d98;
+}
+
+.select-container img {
+    width: 26px;
+}
+
+.select-container select {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Swap */
+.swap {
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 28px;
+    transition: 0.3s ease;
+}
+
+.swap:hover {
+    transform: rotate(180deg);
+    color: #af4d98;
+}
+
+/* Message */
+.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Button */
+form button {
+    height: 50px;
+    background: linear-gradient(135deg, #af4d98, #933d7f);
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
