@@ -9,4 +9,4 @@ A real-time currency converter built using HTML, CSS, and JavaScript.
 - Responsive UI
 
 ## Live Demo
-https://yourusername.github.io/currency-converter/
+https://divyanshuojha1.github.io/currency-converter/
